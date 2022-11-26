@@ -1,0 +1,35 @@
+:root {
+    --main-color: #0077b6;
+    --main-hover: #008eda;
+}
+
+.icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-link {
+    color: var(--main-color);
+    font-size: 2rem;
+    border: 1px solid var(--main-color);
+    border-radius: 50%;
+    padding: 0.5rem 1rem;
+}
+
+
+.icon-link:hover {
+    color: white;
+    background-color: var(--main-color);
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 0.5rem 1rem;
+}
+
+.cus-link {
+    color: white;
+}
+
+.h2-col {
+    color: floralwhite !important;
+}
